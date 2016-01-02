@@ -1,5 +1,5 @@
 source("helpers.R")
-data = readRDS("data/classes.rds")
+data = readRDS("classes.rds")
 classesDF = data
 
 for (i in 1:ncol(classesDF)) {
